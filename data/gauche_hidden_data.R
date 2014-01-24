@@ -1,0 +1,1 @@
+gauche_hidden_data=read.table("gauche_hidden_data.txt",header=TRUE,row.names=1)

@@ -1,0 +1,21 @@
+Package: gauche
+Type: Package
+Title: Genetic Algorithms for Understanding Clonal HEterogeneity
+Version: 0.2
+Date: 2013-12-13
+Authors@R: c(person("Alex", "Murison", role = c("aut",
+    "cre"),email="Alexander.Murison@icr.ac.uk"),person("Christopher",
+    "Wardell", role = c("aut", "cre"),email="Christopher.Wardell@icr.ac.uk"))
+Description: Using genetic algorithms to determine the relationship between
+    clones in heterogenous populations such as cancer samples.
+VignetteBuilder: knitr
+Depends:
+    R (>= 3.0.0),
+    compiler,
+    GA,
+    graph,
+    heatmap.plus,
+    png
+Suggests:
+    knitr
+License: GPL-3
